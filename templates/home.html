@@ -9,15 +9,27 @@
 <h1>Diody</h1>
 <p>Naciśnij przycisk by włączyć/wyłączyć diodę</p>
 
-<form action="/blue/" method="post">
-    <button onclick="myFunction()" name="forwardBtn" type="submit">Blue diode</button>
-</form> {{stat_blue}}
+<form action="/kitchen/" method="post">
+    <button onclick="myFunction()" name="forwardBtn" type="submit">Kitchen</button>
+</form> {{stat}}
 <p></p>
-<form action="/green/" method="post">
-  <button name="forwardBtn" type="submit">Green diode</button>
+<form action="/hall/" method="post">
+  <button name="forwardBtn" type="submit">Hall</button>
 </form>
-{{stat_green}}
-
+{{stat}}
+<p></p>
+  <form action="/bathroom/" method="post">
+    <button onclick="myFunction()" name="forwardBtn" type="submit">Bathroom</button>
+</form> {{stat}}
+<p></p>
+<form action="/first_room/" method="post">
+    <button onclick="myFunction()" name="forwardBtn" type="submit">First room</button>
+</form> {{stat}}
+<p></p>
+<form action="/second_room/" method="post">
+    <button onclick="myFunction()" name="forwardBtn" type="submit">Second room</button>
+</form> {{stat}}
+<p></p>
 
 </body>
 </html>
